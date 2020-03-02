@@ -1,0 +1,137 @@
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Quicksand', sans-serif; */
+/* font-family: 'Fjalla One', sans-serif; */
+
+html, body{ 
+	margin-left: 0;
+	margin-right: 0;
+	/* background-color: #dddddd; */
+
+}
+
+/* Set our base font size (for mobile)
+-------------------------------------- */
+html {
+	font: 80% / 1.5 Arial; /* the base font-size */
+	margin-left: 0rem;
+	
+	
+}
+  
+  /* Set our medium viewport spacing
+  ---------------------------------- */
+@media (min-width: 35em) {
+	html {
+	  	font-size: 160%;  /* double the base font-size */
+	}
+	body {
+	  	font-size: 75%;  /* half the font-size */
+	}
+
+	.container {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+
+	/* .section {
+		grid-template-columns: repeat(2, 1fr);
+	} */
+}
+
+/* Set our large viewport spacing
+  ---------------------------------- */
+@media(min-width: 60em) {
+	.container {
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
+
+	.section {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* Set our xlarge viewport spacing
+  ---------------------------------- */
+@media(min-width: 80em) {
+	.container {
+		margin-left: 8rem;
+		margin-right: 8rem;
+	}
+
+	.section {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.container {
+	background-color: #ffffff;
+}
+
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+.mTop8 {
+	margin-top: 8rem;
+}
+
+#welcome-intro {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2rem;
+}
+
+img {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-me {
+	margin-bottom: 1rem;
+}
+
+.resume {
+	margin-bottom: 1rem;
+}
+
+.projects {
+	margin-bottom: 1rem;
+}
+
+.contact {
+	margin-bottom: 1rem;
+}
+
+
+.section {
+	max-width: auto;
+	margin: 0 auto;
+	display: grid;
+	gap: 1rem;
+}
+
+.section + .section {
+	max-width: auto;
+	margin: 0 auto;
+	display: grid;
+	gap: 1rem;
+}
+
+.subsection {
+	background-color: coral;
+	padding: 1rem;
+	height: 4rem;
+}
+
+
+
+.footer {
+	height: 250px;
+}
