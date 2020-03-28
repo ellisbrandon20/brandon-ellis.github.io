@@ -13,8 +13,6 @@ html, body{
 html {
 	font: 80% / 1.5 Arial; /* the base font-size */
 	margin-left: 0rem;
-	
-	
 }
   
   /* Set our medium viewport spacing
@@ -35,6 +33,21 @@ html {
 	/* .section {
 		grid-template-columns: repeat(2, 1fr);
 	} */
+
+	.fab {
+		font-size: 1.5rem;
+		padding-left:30px !important;
+	}
+
+	.contact-icons {
+		margin-top: 3rem;
+	}
+
+	
+.footer {
+	height: 3rem !important;
+}
+	
 }
 
 /* Set our large viewport spacing
@@ -48,6 +61,16 @@ html {
 	.section {
 		grid-template-columns: repeat(2, 1fr);
 	}
+
+	.fab {
+		font-size: 1.5rem;
+		padding-right:40px !important;
+	}
+
+	
+.footer {
+	height: 5rem !important;
+}
 }
 
 /* Set our xlarge viewport spacing
@@ -61,6 +84,7 @@ html {
 	.section {
 		grid-template-columns: repeat(2, 1fr);
 	}
+	
 }
 
 .container {
@@ -156,8 +180,33 @@ img {
 .experience-summary {
 	font-family: 'Raleway', sans-serif;
 	font-size: 0.6rem;
+} 
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fab {
+	padding-right: 20px;
+	font-size: 2rem;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
 }
 
 .footer {
-	height: 250px;
+	height: 1rem;
 }
